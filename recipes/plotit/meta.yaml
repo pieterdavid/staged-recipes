@@ -23,7 +23,7 @@ requirements:
     - root-binaries
   host:
     - boost-cpp
-    - root_base
+    - root_base {{ root_base }}
     - root-binaries
   run:
     - boost-cpp
